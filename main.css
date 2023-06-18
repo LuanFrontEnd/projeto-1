@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(88, 122, 0);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+header nav li a:hover {
+    color: gold;
+    font-size: 32px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(203, 186, 104);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 280px;
+    display: flex;
+}
+
+section img {
+    height: 400px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 16px 16px;
+}
+
+section .container {
+    display: flex;
+    align-self: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: white;
+}
+
+section h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-dois {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container-dois {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;   
+}
+
+
+section .alugue {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:green ;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align:center;
+    padding: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #5343ff;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container-dois .alugue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(81, 59, 246);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.contato form textarea {
+    width: 180px;
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+.contato form input,
+.contato form textarea,
+.contato form button {
+    margin-bottom: 8px;
+}
+
+.contato form button {
+    background-color: rgb(121, 9, 248);
+    width: 180px;
+    color:#ffffff;
+    font-family: 'Anton', sans-serif;
+}
+
+.contato form button:hover {
+    background-color: #e5a80e;
+}
+
+.social-links {
+    display: flex;
+}
+
+
+
+form textarea {
+    resize:none;
+
+}
+
+.social-links img {
+    height: 24px;
+}
